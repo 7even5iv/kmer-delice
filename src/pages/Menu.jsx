@@ -49,7 +49,7 @@ export default function Menu() {
     let message = `*COMMANDE KMER-DELICE* 🥗%0A👤 ${deliveryInfo.nom}%0A📞 ${deliveryInfo.phone}%0A📍 ${deliveryInfo.quartier} (${deliveryInfo.repere})%0A----------------%0A`;
     cart.forEach(i => message += `▫️ ${i.qty}x ${i.name} : ${i.price * i.qty} F%0A`);
     message += `----------------%0A💰 *TOTAL: ${total} FCFA*`;
-    window.open(`https://wa.me/237699999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/237690316766?text=${message}`, '_blank');
     setCart([]); setIsCheckoutOpen(false); setIsCartOpen(false); showToast("Commande envoyée !");
   };
 
