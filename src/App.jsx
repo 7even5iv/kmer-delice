@@ -133,7 +133,7 @@ export default function App() {
     message += `Merci de confirmer la livraison !`;
 
     // Remplace le numéro par le tien ou celui du client fictif
-    window.open(`https://wa.me/237699999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/237690316766?text=${message}`, '_blank');
     
     setCart([]); // Vider le panier
     setIsCheckoutOpen(false);
